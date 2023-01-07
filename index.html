@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container" id="container">
+        <div class="scoreBoardBox">
+          <h1 id="home">Home</h1>
+          <div id="homeScore"></div>
+          <div class="scoreButton" id="scoreButtonHome">
+            <button data-one-home="scoreButtonHome">+1</button>
+            <button data-two-home="scoreButtonHome">+2</button>
+            <button data-three-home="scoreButtonHome">+3</button>
+          </div>
+        </div>
+        <div class="scoreBoardBox">
+          <h1 id="guest">Guest</h1>
+          <div id="guestScore"></div>
+          <div class="scoreButton" id="scoreButtonGuest">
+            <button data-one-guest="scoreButtonGuest">+1</button>
+            <button data-two-guest="scoreButtonGuest">+2</button>
+            <button data-three-guest="scoreButtonGuest">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="container"><button id="newGame">New Game</button></div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
